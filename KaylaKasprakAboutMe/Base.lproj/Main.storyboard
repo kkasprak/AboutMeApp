@@ -1,88 +1,253 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Karla-BoldItalic.ttf">
+            <string>Karla-BoldItalic</string>
+            <string>Karla-BoldItalic</string>
+        </mutableArray>
+        <mutableArray key="Karla-Italic.ttf">
+            <string>Karla-Italic</string>
+            <string>Karla-Italic</string>
+            <string>Karla-Italic</string>
+            <string>Karla-Italic</string>
+            <string>Karla-Italic</string>
+        </mutableArray>
+        <mutableArray key="Karla-Regular.ttf">
+            <string>Karla-Regular</string>
+            <string>Karla-Regular</string>
+            <string>Karla-Regular</string>
+            <string>Karla-Regular</string>
+        </mutableArray>
+        <mutableArray key="Oswald-Bold.ttf">
+            <string>Oswald-Bold</string>
+            <string>Oswald-Bold</string>
+            <string>Oswald-Bold</string>
+            <string>Oswald-Bold</string>
+        </mutableArray>
+        <mutableArray key="Oswald-Regular.ttf">
+            <string>Oswald-Regular</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
-        <!--First-->
+        <!--About-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="KaylaKasprakAboutMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="221" y="279" width="157.5" height="41.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <rect key="frame" x="203" y="329" width="194.5" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="photo" translatesAutoresizingMaskIntoConstraints="NO" id="uSA-Cl-SYg">
+                                <rect key="frame" x="88" y="71" width="200" height="216"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="1UJ-jE-S6Y"/>
+                                    <constraint firstAttribute="height" constant="210" id="HJv-4q-1rk"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="JsG-Mo-i3g"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="KAYLA KASPRAK" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WIl-LM-VCf">
+                                <rect key="frame" x="32" y="364" width="323" height="73"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald" pointSize="38"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFj-B9-nLy">
+                                <rect key="frame" x="32" y="425" width="323" height="149"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Emerging tech enthusiast. Junior Computer Science student at the University of South Carolina. In my free time, I like to make things, empower other women, and go on adventures. </string>
+                                <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="JFj-B9-nLy" secondAttribute="bottom" constant="44" id="AAK-jB-y4B"/>
+                            <constraint firstItem="uSA-Cl-SYg" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="40" id="Cul-VC-ezj"/>
+                            <constraint firstItem="JFj-B9-nLy" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="FJI-cC-E3G"/>
+                            <constraint firstItem="WIl-LM-VCf" firstAttribute="top" secondItem="uSA-Cl-SYg" secondAttribute="bottom" constant="70" id="Vu4-k2-D3A"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="JFj-B9-nLy" secondAttribute="bottom" constant="20" id="aRk-DY-j6b"/>
+                            <constraint firstItem="uSA-Cl-SYg" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="pcD-zt-Qf0"/>
+                            <constraint firstItem="WIl-LM-VCf" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="zFa-xI-SIj"/>
+                            <constraint firstItem="JFj-B9-nLy" firstAttribute="top" secondItem="WIl-LM-VCf" secondAttribute="bottom" constant="-30" id="zVz-Kl-IZs"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="About" image="first" id="acW-dT-cKf"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="586.5" y="-314.5"/>
         </scene>
-        <!--Second-->
+        <!--Resume-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Resume" id="8rJ-Kc-sve" customClass="SecondViewController" customModule="KaylaKasprakAboutMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="195" y="279" width="209.5" height="41.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
-                                <rect key="frame" x="192" y="329" width="215.5" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MNF-rr-hQa">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="EXPERIENCE" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O9a-Oc-cRQ">
+                                        <rect key="frame" x="10" y="167" width="114" height="30"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="22"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="EDUCATION" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u5Q-Wb-uCc">
+                                        <rect key="frame" x="12" y="43" width="111" height="30"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="22"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Gg-ty-Qhn">
+                                        <rect key="frame" x="187" y="402" width="46" height="30"/>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="LEADERSHIP" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="okA-5o-Xly">
+                                        <rect key="frame" x="28" y="1477" width="105" height="30"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="22"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="SQUARE, INC., SAN FRANCISCO, CA " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gY0-cO-NJU">
+                                        <rect key="frame" x="8" y="186" width="208" height="30"/>
+                                        <fontDescription key="fontDescription" name="Karla-BoldItalic" family="Karla" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Code Camp Participant" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kqu-wd-kld">
+                                        <rect key="frame" x="9" y="199" width="331" height="30"/>
+                                        <fontDescription key="fontDescription" name="Karla-Italic" family="Karla" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="One of twenty women selected out of 600+ applicants." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kFQ-ni-TkZ">
+                                        <rect key="frame" x="8" y="212" width="331" height="30"/>
+                                        <fontDescription key="fontDescription" name="Karla-Italic" family="Karla" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="January 2016" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mlh-gK-bqU">
+                                        <rect key="frame" x="258" y="186" width="90" height="30"/>
+                                        <fontDescription key="fontDescription" name="Karla-Italic" family="Karla" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JgZ-fl-7hI">
+                                        <rect key="frame" x="9" y="237" width="340" height="190"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">• Engaged in hands-on workshops led by Square engineers on iOS, Ruby on Rails, hardware, data science, information security, and design.• Collaborated with a team of five Code Campers and two Square engineers in a hackathon to build a web app using Ruby on Rails, HTML, and CSS to connect past, present, and future Code Camp generations.• Presented hackathon web app to other Code Campers and Square leadership.</string>
+                                        <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dal-6P-RCT">
+                                        <rect key="frame" x="10" y="76" width="340" height="89"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">Bachelor of Science, Computer ScienceUniversity of South Carolina, Columbia, SCExpected May 2017GPA: 3.92</string>
+                                        <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5i4-Ix-11j">
+                                        <rect key="frame" x="10" y="473" width="339" height="377"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <mutableString key="text">• Led implementation, training, and management of internally built social application to crowdsource innovation ideas and proposals. • Organized and facilitated Innovation Challenges and communications to 2000 employees in IT Infrastructure organization.• Engaged with over 20 suppliers and manufacturers to evaluate next-generation technologies and determine potential business value and feasibility.• Served as a Project Manager on projects involving robotics, mobile computing, augmented reality, and data sensor technologies.• Provided internal consultations to accelerate and validate technical projects by establishing a value proposition and success criteria, facilitating proof of concepts, and recording and reporting test results.• Communicated priorities, risks, and updated metrics to various stakeholders, including other project managers, engineers, and leadership.</mutableString>
+                                        <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Global ITI Innovation Intern" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lJE-6M-tiU">
+                                        <rect key="frame" x="12" y="450" width="331" height="30"/>
+                                        <fontDescription key="fontDescription" name="Karla-Italic" family="Karla" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="May 2015 - Present" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YpU-GE-fr0">
+                                        <rect key="frame" x="243" y="435" width="115" height="30"/>
+                                        <fontDescription key="fontDescription" name="Karla-Italic" family="Karla" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The BOEING COMPANY, SEATTLE, WA" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sug-o1-VCV">
+                                        <rect key="frame" x="12" y="435" width="223" height="30"/>
+                                        <fontDescription key="fontDescription" name="Karla-BoldItalic" family="Karla" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="SKILLS" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HjQ-mI-AbK">
+                                        <rect key="frame" x="28" y="1342" width="97" height="30"/>
+                                        <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="22"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="6Gg-ty-Qhn" firstAttribute="centerY" secondItem="MNF-rr-hQa" secondAttribute="centerY" id="9hu-cg-FAa"/>
+                                    <constraint firstItem="6Gg-ty-Qhn" firstAttribute="centerX" secondItem="MNF-rr-hQa" secondAttribute="centerX" id="SIa-EF-U3E"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
                         <constraints>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
-                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
-                            <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
+                            <constraint firstItem="MNF-rr-hQa" firstAttribute="height" secondItem="QS5-Rx-YEW" secondAttribute="height" id="EcX-tQ-1ps"/>
+                            <constraint firstItem="MNF-rr-hQa" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" id="ItY-m8-b4r"/>
+                            <constraint firstItem="MNF-rr-hQa" firstAttribute="width" secondItem="QS5-Rx-YEW" secondAttribute="width" id="VMh-NK-Vx7"/>
+                            <constraint firstItem="MNF-rr-hQa" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="b5b-A3-bk9"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Resume" image="second" id="cPa-gy-q4n" userLabel="Resume"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="2000"/>
+                    <connections>
+                        <outlet property="ScrollView" destination="MNF-rr-hQa" id="jT0-3b-dAl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="998.5" y="-315"/>
+        </scene>
+        <!--Projects-->
+        <scene sceneID="q9o-0T-uT9">
+            <objects>
+                <viewController title="Projects" id="KEF-CL-6co" customClass="ThirdViewController" customModule="KaylaKasprakAboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kYb-tA-OhO"/>
+                        <viewControllerLayoutGuide type="bottom" id="gFv-CH-VFy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KeI-Na-BGe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Projects" image="third" id="mcY-Zn-gzM" userLabel="Projects"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tsD-Pa-eXp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="593.5" y="479.5"/>
+        </scene>
+        <!--Contact-->
+        <scene sceneID="8jV-sd-KVi">
+            <objects>
+                <viewController title="Contact" id="d2C-43-cPF" customClass="FourthViewController" customModule="KaylaKasprakAboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SOy-Cf-Qs5"/>
+                        <viewControllerLayoutGuide type="bottom" id="IQJ-Dx-yMX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="o4W-oe-x0E">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Contact" image="fourth" id="kjq-Th-oeq" userLabel="Contact"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ICY-Gi-efY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="593.5" y="1225.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -97,6 +262,8 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="KEF-CL-6co" kind="relationship" relationship="viewControllers" id="0Wg-zh-Uzb"/>
+                        <segue destination="d2C-43-cPF" kind="relationship" relationship="viewControllers" id="iPk-gC-i8w"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -106,6 +273,9 @@
     </scenes>
     <resources>
         <image name="first" width="30" height="30"/>
+        <image name="fourth" width="30" height="30"/>
+        <image name="photo" width="695" height="756"/>
         <image name="second" width="30" height="30"/>
+        <image name="third" width="30" height="30"/>
     </resources>
 </document>

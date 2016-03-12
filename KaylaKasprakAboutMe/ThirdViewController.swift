@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  ThirdViewController.swift
 //  KaylaKasprakAboutMe
 //
 //  Created by Kayla Kasprak on 3/12/16.
@@ -8,22 +8,17 @@
 
 import UIKit
 
-let fontFamilies:NSArray = UIFont.familyNames();
-
-
-class FirstViewController: UIViewController {
+class ThirdViewController: UIViewController {
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
-

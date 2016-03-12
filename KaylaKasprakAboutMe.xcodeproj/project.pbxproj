@@ -15,6 +15,36 @@
 		438A86691C94207300DE73DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438A86671C94207300DE73DA /* LaunchScreen.storyboard */; };
 		438A86741C94207300DE73DA /* KaylaKasprakAboutMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438A86731C94207300DE73DA /* KaylaKasprakAboutMeTests.swift */; };
 		438A867F1C94207300DE73DA /* KaylaKasprakAboutMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438A867E1C94207300DE73DA /* KaylaKasprakAboutMeUITests.swift */; };
+		438A868D1C94268000DE73DA /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438A868C1C94268000DE73DA /* ThirdViewController.swift */; };
+		438A868F1C94269B00DE73DA /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438A868E1C94269B00DE73DA /* FourthViewController.swift */; };
+		438A86971C946D2800DE73DA /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 438A86941C946D2800DE73DA /* SF-UI-Text-Light.otf */; settings = {ASSET_TAGS = (SFUILight, ); }; };
+		438A86981C946D2800DE73DA /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 438A86951C946D2800DE73DA /* SF-UI-Text-Regular.otf */; settings = {ASSET_TAGS = (SFUIRegular, ); }; };
+		438A86991C946D2800DE73DA /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 438A86961C946D2800DE73DA /* SF-UI-Text-Semibold.otf */; settings = {ASSET_TAGS = (SFUISemi, ); }; };
+		43F0B6991C94713C00355858 /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 438A86941C946D2800DE73DA /* SF-UI-Text-Light.otf */; settings = {ASSET_TAGS = (SFUILight, ); }; };
+		43F0B69A1C94713D00355858 /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 438A86941C946D2800DE73DA /* SF-UI-Text-Light.otf */; settings = {ASSET_TAGS = (SFUILight, ); }; };
+		43F0B69B1C94714900355858 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 438A86951C946D2800DE73DA /* SF-UI-Text-Regular.otf */; settings = {ASSET_TAGS = (SFUIRegular, ); }; };
+		43F0B69C1C94714A00355858 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 438A86951C946D2800DE73DA /* SF-UI-Text-Regular.otf */; settings = {ASSET_TAGS = (SFUIRegular, ); }; };
+		43F0B69D1C94715600355858 /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 438A86961C946D2800DE73DA /* SF-UI-Text-Semibold.otf */; settings = {ASSET_TAGS = (SFUISemi, ); }; };
+		43F0B69E1C94715700355858 /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 438A86961C946D2800DE73DA /* SF-UI-Text-Semibold.otf */; settings = {ASSET_TAGS = (SFUISemi, ); }; };
+		43F0B69F1C94717800355858 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 438A866A1C94207300DE73DA /* Info.plist */; };
+		43F0B6A11C949F6D00355858 /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6A01C949F6D00355858 /* Oswald-Light.ttf */; };
+		43F0B6A21C949F6D00355858 /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6A01C949F6D00355858 /* Oswald-Light.ttf */; };
+		43F0B6A31C949F6D00355858 /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6A01C949F6D00355858 /* Oswald-Light.ttf */; };
+		43F0B6A51C949F7A00355858 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6A41C949F7A00355858 /* Oswald-Regular.ttf */; };
+		43F0B6A61C949F7A00355858 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6A41C949F7A00355858 /* Oswald-Regular.ttf */; };
+		43F0B6A71C949F7A00355858 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6A41C949F7A00355858 /* Oswald-Regular.ttf */; };
+		43F0B6A91C949F8200355858 /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6A81C949F8200355858 /* Oswald-Bold.ttf */; };
+		43F0B6AA1C949F8200355858 /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6A81C949F8200355858 /* Oswald-Bold.ttf */; };
+		43F0B6AB1C949F8200355858 /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6A81C949F8200355858 /* Oswald-Bold.ttf */; };
+		43F0B6AD1C949FD100355858 /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6AC1C949FD100355858 /* Karla-Regular.ttf */; };
+		43F0B6AE1C949FD100355858 /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6AC1C949FD100355858 /* Karla-Regular.ttf */; };
+		43F0B6AF1C949FD100355858 /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6AC1C949FD100355858 /* Karla-Regular.ttf */; };
+		43F0B6B11C94A38400355858 /* Karla-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6B01C94A38400355858 /* Karla-Italic.ttf */; };
+		43F0B6B21C94A38400355858 /* Karla-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6B01C94A38400355858 /* Karla-Italic.ttf */; };
+		43F0B6B31C94A38400355858 /* Karla-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6B01C94A38400355858 /* Karla-Italic.ttf */; };
+		43F0B6B51C94A85C00355858 /* Karla-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6B41C94A85C00355858 /* Karla-BoldItalic.ttf */; };
+		43F0B6B61C94A85C00355858 /* Karla-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6B41C94A85C00355858 /* Karla-BoldItalic.ttf */; };
+		43F0B6B71C94A85C00355858 /* Karla-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F0B6B41C94A85C00355858 /* Karla-BoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +79,17 @@
 		438A867A1C94207300DE73DA /* KaylaKasprakAboutMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaylaKasprakAboutMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		438A867E1C94207300DE73DA /* KaylaKasprakAboutMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaylaKasprakAboutMeUITests.swift; sourceTree = "<group>"; };
 		438A86801C94207300DE73DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438A868C1C94268000DE73DA /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		438A868E1C94269B00DE73DA /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		438A86941C946D2800DE73DA /* SF-UI-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Light.otf"; sourceTree = "<group>"; };
+		438A86951C946D2800DE73DA /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		438A86961C946D2800DE73DA /* SF-UI-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold.otf"; sourceTree = "<group>"; };
+		43F0B6A01C949F6D00355858 /* Oswald-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Light.ttf"; sourceTree = "<group>"; };
+		43F0B6A41C949F7A00355858 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		43F0B6A81C949F8200355858 /* Oswald-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Bold.ttf"; sourceTree = "<group>"; };
+		43F0B6AC1C949FD100355858 /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Regular.ttf"; sourceTree = "<group>"; };
+		43F0B6B01C94A38400355858 /* Karla-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Italic.ttf"; sourceTree = "<group>"; };
+		43F0B6B41C94A85C00355858 /* Karla-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-BoldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +120,15 @@
 		438A86501C94207300DE73DA = {
 			isa = PBXGroup;
 			children = (
+				438A86941C946D2800DE73DA /* SF-UI-Text-Light.otf */,
+				438A86951C946D2800DE73DA /* SF-UI-Text-Regular.otf */,
+				438A86961C946D2800DE73DA /* SF-UI-Text-Semibold.otf */,
+				43F0B6A01C949F6D00355858 /* Oswald-Light.ttf */,
+				43F0B6A41C949F7A00355858 /* Oswald-Regular.ttf */,
+				43F0B6A81C949F8200355858 /* Oswald-Bold.ttf */,
+				43F0B6B01C94A38400355858 /* Karla-Italic.ttf */,
+				43F0B6AC1C949FD100355858 /* Karla-Regular.ttf */,
+				43F0B6B41C94A85C00355858 /* Karla-BoldItalic.ttf */,
 				438A865B1C94207300DE73DA /* KaylaKasprakAboutMe */,
 				438A86721C94207300DE73DA /* KaylaKasprakAboutMeTests */,
 				438A867D1C94207300DE73DA /* KaylaKasprakAboutMeUITests */,
@@ -106,6 +156,8 @@
 				438A86651C94207300DE73DA /* Assets.xcassets */,
 				438A86671C94207300DE73DA /* LaunchScreen.storyboard */,
 				438A866A1C94207300DE73DA /* Info.plist */,
+				438A868C1C94268000DE73DA /* ThirdViewController.swift */,
+				438A868E1C94269B00DE73DA /* FourthViewController.swift */,
 			);
 			path = KaylaKasprakAboutMe;
 			sourceTree = "<group>";
@@ -190,6 +242,11 @@
 		438A86511C94207300DE73DA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					SFUILight,
+					SFUIRegular,
+					SFUISemi,
+				);
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Kayla Kasprak";
@@ -235,9 +292,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F0B6AD1C949FD100355858 /* Karla-Regular.ttf in Resources */,
+				438A86971C946D2800DE73DA /* SF-UI-Text-Light.otf in Resources */,
+				43F0B6B11C94A38400355858 /* Karla-Italic.ttf in Resources */,
+				43F0B6A91C949F8200355858 /* Oswald-Bold.ttf in Resources */,
+				43F0B6A51C949F7A00355858 /* Oswald-Regular.ttf in Resources */,
+				43F0B6B51C94A85C00355858 /* Karla-BoldItalic.ttf in Resources */,
+				438A86981C946D2800DE73DA /* SF-UI-Text-Regular.otf in Resources */,
+				438A86991C946D2800DE73DA /* SF-UI-Text-Semibold.otf in Resources */,
+				43F0B6A11C949F6D00355858 /* Oswald-Light.ttf in Resources */,
 				438A86691C94207300DE73DA /* LaunchScreen.storyboard in Resources */,
 				438A86661C94207300DE73DA /* Assets.xcassets in Resources */,
 				438A86641C94207300DE73DA /* Main.storyboard in Resources */,
+				43F0B69F1C94717800355858 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +312,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F0B6A61C949F7A00355858 /* Oswald-Regular.ttf in Resources */,
+				43F0B69D1C94715600355858 /* SF-UI-Text-Semibold.otf in Resources */,
+				43F0B6B21C94A38400355858 /* Karla-Italic.ttf in Resources */,
+				43F0B69B1C94714900355858 /* SF-UI-Text-Regular.otf in Resources */,
+				43F0B6991C94713C00355858 /* SF-UI-Text-Light.otf in Resources */,
+				43F0B6AE1C949FD100355858 /* Karla-Regular.ttf in Resources */,
+				43F0B6A21C949F6D00355858 /* Oswald-Light.ttf in Resources */,
+				43F0B6AA1C949F8200355858 /* Oswald-Bold.ttf in Resources */,
+				43F0B6B61C94A85C00355858 /* Karla-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +328,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F0B6A71C949F7A00355858 /* Oswald-Regular.ttf in Resources */,
+				43F0B69E1C94715700355858 /* SF-UI-Text-Semibold.otf in Resources */,
+				43F0B6B31C94A38400355858 /* Karla-Italic.ttf in Resources */,
+				43F0B69C1C94714A00355858 /* SF-UI-Text-Regular.otf in Resources */,
+				43F0B69A1C94713D00355858 /* SF-UI-Text-Light.otf in Resources */,
+				43F0B6AF1C949FD100355858 /* Karla-Regular.ttf in Resources */,
+				43F0B6A31C949F6D00355858 /* Oswald-Light.ttf in Resources */,
+				43F0B6AB1C949F8200355858 /* Oswald-Bold.ttf in Resources */,
+				43F0B6B71C94A85C00355858 /* Karla-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +349,9 @@
 			files = (
 				438A86611C94207300DE73DA /* SecondViewController.swift in Sources */,
 				438A865D1C94207300DE73DA /* AppDelegate.swift in Sources */,
+				438A868D1C94268000DE73DA /* ThirdViewController.swift in Sources */,
 				438A865F1C94207300DE73DA /* FirstViewController.swift in Sources */,
+				438A868F1C94269B00DE73DA /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +576,7 @@
 				438A86851C94207300DE73DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		438A86861C94207300DE73DA /* Build configuration list for PBXNativeTarget "KaylaKasprakAboutMeTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +585,7 @@
 				438A86881C94207300DE73DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		438A86891C94207300DE73DA /* Build configuration list for PBXNativeTarget "KaylaKasprakAboutMeUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +594,7 @@
 				438A868B1C94207300DE73DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
